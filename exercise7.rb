@@ -19,4 +19,13 @@ students = {
 }
 
 # Display student list
+puts "Original list\n-------------"
+display_list(students)
+
+# Added new cohort
+students[:cohort4] = 43
+
+
+# Display student list with new cohort
+puts "List with new cohort list\n--------------------------"
 display_list(students)
