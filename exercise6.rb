@@ -34,3 +34,8 @@ if !grocery_list.include?("bananas")
 else
 	puts "You don't need to pick up bananas today."
 end
+
+# Dispay second itemm on the list
+puts "Second item on the list: " + grocery_list[1]
+
+
