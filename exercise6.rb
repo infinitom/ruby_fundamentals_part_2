@@ -17,8 +17,8 @@ end
 # Define grocery list array
 grocery_list = ["carrots", "toilet paper", "apples", "salmon"]
 
-# Output grocery list
-display_list(grocery_list)
-
 # Forgot rice
 grocery_list << "rice"
+
+# Output grocery list
+display_list(grocery_list)
