@@ -22,3 +22,6 @@ grocery_list << "rice"
 
 # Output grocery list
 display_list(grocery_list)
+
+#display number of items
+puts grocery_list.count.to_s + " items on the list."
