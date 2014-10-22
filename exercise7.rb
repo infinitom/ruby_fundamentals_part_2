@@ -27,7 +27,7 @@ students[:cohort4] = 43
 
 
 # Display student list with new cohort
-puts "List with new cohort list\n--------------------------"
+puts "List with new cohort\n--------------------------"
 display_list(students)
 
 
@@ -36,3 +36,8 @@ puts "Expanded classes\n----------------"
 students.each { |key, value| students[key] = value*1.05}
 display_list(students)
 
+
+#Deleted the second cohort
+puts "Deleted second cohort\n----------------"
+students.delete(:cohort2)
+display_list(students)
