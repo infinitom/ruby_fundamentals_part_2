@@ -5,7 +5,6 @@
 
 #Method to display the list
 def display_list(list)
-	
 	list.each do |list_item|
 		puts "* #{list_item}"
 	end
@@ -22,6 +21,7 @@ grocery_list << "rice"
 
 
 # Output grocery list
+puts "Original grocery list\n---------------------"
 display_list(grocery_list)
 
 #display number of items
@@ -38,4 +38,7 @@ end
 # Dispay second itemm on the list
 puts "Second item on the list: " + grocery_list[1]
 
+# Display a sorted grocery list
+puts "\nSorted grocery list\n--------------------"
+display_list(grocery_list.sort)
 
