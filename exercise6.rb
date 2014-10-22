@@ -19,3 +19,6 @@ grocery_list = ["carrots", "toilet paper", "apples", "salmon"]
 
 # Output grocery list
 display_list(grocery_list)
+
+# Forgot rice
+grocery_list << "rice"
