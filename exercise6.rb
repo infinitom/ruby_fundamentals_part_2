@@ -20,8 +20,17 @@ grocery_list = ["carrots", "toilet paper", "apples", "salmon"]
 # Forgot rice
 grocery_list << "rice"
 
+
 # Output grocery list
 display_list(grocery_list)
 
 #display number of items
 puts grocery_list.count.to_s + " items on the list."
+
+
+# Le Banana check
+if !grocery_list.include?("bananas")
+	puts "You need to pick up bananas."
+else
+	puts "You don't need to pick up bananas today."
+end
