@@ -29,3 +29,10 @@ students[:cohort4] = 43
 # Display student list with new cohort
 puts "List with new cohort list\n--------------------------"
 display_list(students)
+
+
+#Expanded classes by 5%
+puts "Expanded classes\n----------------"
+students.each { |key, value| students[key] = value*1.05}
+display_list(students)
+
