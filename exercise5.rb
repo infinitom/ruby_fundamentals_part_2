@@ -2,6 +2,10 @@
 # Exercise 5 - A short program to convert imperial to metric (F to C)
 #
 
+# For fancy colours n stuff
+require 'colorize'
+
+# Awesome conversion method
 def temperature_converter(number, scale)
 # Thanks for awesome tips Josh
 
@@ -34,4 +38,4 @@ temp_scale = user_input.slice! -1
 user_output = temperature_converter(user_input, temp_scale)
 
 # Display the conversion
-puts "#{user_input}#{temp_scale} is #{user_output}"
+puts user_input.red + temp_scale.red + " is " +user_output.green
