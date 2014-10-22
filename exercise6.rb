@@ -42,3 +42,12 @@ puts "Second item on the list: " + grocery_list[1]
 puts "\nSorted grocery list\n--------------------"
 display_list(grocery_list.sort)
 
+
+# Display list sans salmon
+puts "\nSorted grocery list, without salmon\n-----------------------------------"
+grocery_list.delete("salmon")
+display_list(grocery_list.sort)
+
+
+
+
